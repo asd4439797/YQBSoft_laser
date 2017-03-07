@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:YQBSoft_laser_app"
+      name = "YQBSoft_laser_app">
+      <FileRef
+         location = "group:YQBDemoProject/YQBDemoProject.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:YQBSoft_laser_com"
+      name = "YQBSoft_laser_com">
+      <FileRef
+         location = "group:YQBMediator.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:YQBMediator"
+         name = "YQBMediator">
+         <FileRef
+            location = "group:BaseYQBSoftTarget.h">
+         </FileRef>
+         <FileRef
+            location = "group:BaseYQBSoftTarget.m">
+         </FileRef>
+         <FileRef
+            location = "group:YQBSoftMediator.h">
+         </FileRef>
+         <FileRef
+            location = "group:YQBSoftMediator.m">
+         </FileRef>
+         <FileRef
+            location = "group:YQBSoftMediatorHeader.h">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:YQBSoftLogin.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:YQBSoftLogin"
+         name = "YQBSoftLogin">
+         <FileRef
+            location = "group:JPUSHService.h">
+         </FileRef>
+         <FileRef
+            location = "group:LoginModel.h">
+         </FileRef>
+         <FileRef
+            location = "group:LoginModel.m">
+         </FileRef>
+         <FileRef
+            location = "group:UserInfoModel.h">
+         </FileRef>
+         <FileRef
+            location = "group:UserInfoModel.m">
+         </FileRef>
+         <FileRef
+            location = "group:YQBLoginFrameworkUrl.h">
+         </FileRef>
+         <FileRef
+            location = "group:YQBLoginFrameworkUrl.m">
+         </FileRef>
+         <FileRef
+            location = "group:YQBSoftLogin.h">
+         </FileRef>
+         <FileRef
+            location = "group:YQBSoftLogin.m">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:YQBNetwork.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:YQBNetwork"
+         name = "YQBNetwork">
+         <FileRef
+            location = "group:AFHTTPSessionManager.h">
+         </FileRef>
+         <FileRef
+            location = "group:AFHTTPSessionManager.m">
+         </FileRef>
+         <FileRef
+            location = "group:AFNetworking.h">
+         </FileRef>
+         <FileRef
+            location = "group:AFNetworkReachabilityManager.h">
+         </FileRef>
+         <FileRef
+            location = "group:AFNetworkReachabilityManager.m">
+         </FileRef>
+         <FileRef
+            location = "group:AFSecurityPolicy.h">
+         </FileRef>
+         <FileRef
+            location = "group:AFSecurityPolicy.m">
+         </FileRef>
+         <FileRef
+            location = "group:AFURLRequestSerialization.h">
+         </FileRef>
+         <FileRef
+            location = "group:AFURLRequestSerialization.m">
+         </FileRef>
+         <FileRef
+            location = "group:AFURLResponseSerialization.h">
+         </FileRef>
+         <FileRef
+            location = "group:AFURLResponseSerialization.m">
+         </FileRef>
+         <FileRef
+            location = "group:AFURLSessionManager.h">
+         </FileRef>
+         <FileRef
+            location = "group:AFURLSessionManager.m">
+         </FileRef>
+         <FileRef
+            location = "group:NetworkingError.h">
+         </FileRef>
+         <FileRef
+            location = "group:NetworkingError.m">
+         </FileRef>
+         <FileRef
+            location = "group:YQBNetwork.h">
+         </FileRef>
+         <FileRef
+            location = "group:YQBNetwork.m">
+         </FileRef>
+         <FileRef
+            location = "group:YQBNetworkBaseResponseModel.h">
+         </FileRef>
+         <FileRef
+            location = "group:YQBNetworkBaseResponseModel.m">
+         </FileRef>
+      </Group>
+   </Group>
+</Workspace>

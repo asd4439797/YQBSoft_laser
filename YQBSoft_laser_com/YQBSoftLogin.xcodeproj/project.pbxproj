@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		833697BF1E56A80D00923278 /* YQBSoftLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 833697BE1E56A80D00923278 /* YQBSoftLogin.m */; };
+		833697C01E56A80D00923278 /* YQBSoftLogin.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 833697BD1E56A80D00923278 /* YQBSoftLogin.h */; };
+		833697D91E570B3B00923278 /* UserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 833697D81E570B3B00923278 /* UserInfoModel.m */; };
+		8336982E1E572E2500923278 /* UserInfoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 833697D71E570B3B00923278 /* UserInfoModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8336982F1E572E2A00923278 /* YQBSoftLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = 833697BD1E56A80D00923278 /* YQBSoftLogin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83C7FA621E5D3935004DA28B /* YQBLoginFrameworkUrl.h in Headers */ = {isa = PBXBuildFile; fileRef = 83C7FA601E5D3935004DA28B /* YQBLoginFrameworkUrl.h */; };
+		83C7FA631E5D3935004DA28B /* YQBLoginFrameworkUrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C7FA611E5D3935004DA28B /* YQBLoginFrameworkUrl.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		833697B81E56A80D00923278 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				833697C01E56A80D00923278 /* YQBSoftLogin.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		833697BA1E56A80D00923278 /* libYQBSoftLogin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYQBSoftLogin.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		833697BD1E56A80D00923278 /* YQBSoftLogin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQBSoftLogin.h; sourceTree = "<group>"; };
+		833697BE1E56A80D00923278 /* YQBSoftLogin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQBSoftLogin.m; sourceTree = "<group>"; };
+		833697D71E570B3B00923278 /* UserInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoModel.h; sourceTree = "<group>"; };
+		833697D81E570B3B00923278 /* UserInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoModel.m; sourceTree = "<group>"; };
+		83C7FA601E5D3935004DA28B /* YQBLoginFrameworkUrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQBLoginFrameworkUrl.h; sourceTree = "<group>"; };
+		83C7FA611E5D3935004DA28B /* YQBLoginFrameworkUrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQBLoginFrameworkUrl.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		833697B71E56A80D00923278 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		833697B11E56A80D00923278 = {
+			isa = PBXGroup;
+			children = (
+				833697BC1E56A80D00923278 /* YQBSoftLogin */,
+				833697BB1E56A80D00923278 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		833697BB1E56A80D00923278 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				833697BA1E56A80D00923278 /* libYQBSoftLogin.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		833697BC1E56A80D00923278 /* YQBSoftLogin */ = {
+			isa = PBXGroup;
+			children = (
+				833697D71E570B3B00923278 /* UserInfoModel.h */,
+				833697D81E570B3B00923278 /* UserInfoModel.m */,
+				833697BD1E56A80D00923278 /* YQBSoftLogin.h */,
+				833697BE1E56A80D00923278 /* YQBSoftLogin.m */,
+				83C7FA601E5D3935004DA28B /* YQBLoginFrameworkUrl.h */,
+				83C7FA611E5D3935004DA28B /* YQBLoginFrameworkUrl.m */,
+			);
+			path = YQBSoftLogin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8336982D1E572E1F00923278 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8336982E1E572E2500923278 /* UserInfoModel.h in Headers */,
+				83C7FA621E5D3935004DA28B /* YQBLoginFrameworkUrl.h in Headers */,
+				8336982F1E572E2A00923278 /* YQBSoftLogin.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		833697B91E56A80D00923278 /* YQBSoftLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 833697C31E56A80D00923278 /* Build configuration list for PBXNativeTarget "YQBSoftLogin" */;
+			buildPhases = (
+				833697B61E56A80D00923278 /* Sources */,
+				833697B71E56A80D00923278 /* Frameworks */,
+				833697B81E56A80D00923278 /* CopyFiles */,
+				8336982D1E572E1F00923278 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YQBSoftLogin;
+			productName = YQBSoftLogin;
+			productReference = 833697BA1E56A80D00923278 /* libYQBSoftLogin.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		833697B21E56A80D00923278 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "上海钰壳网络科技有限公司";
+				TargetAttributes = {
+					833697B91E56A80D00923278 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 833697B51E56A80D00923278 /* Build configuration list for PBXProject "YQBSoftLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 833697B11E56A80D00923278;
+			productRefGroup = 833697BB1E56A80D00923278 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				833697B91E56A80D00923278 /* YQBSoftLogin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		833697B61E56A80D00923278 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833697BF1E56A80D00923278 /* YQBSoftLogin.m in Sources */,
+				83C7FA631E5D3935004DA28B /* YQBLoginFrameworkUrl.m in Sources */,
+				833697D91E570B3B00923278 /* UserInfoModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		833697C11E56A80D00923278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../YQBSoft_loser_com/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		833697C21E56A80D00923278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../YQBSoft_loser_com/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		833697C41E56A80D00923278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../YQBSoft_laser_com/**";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		833697C51E56A80D00923278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../YQBSoft_laser_com/**";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		833697B51E56A80D00923278 /* Build configuration list for PBXProject "YQBSoftLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				833697C11E56A80D00923278 /* Debug */,
+				833697C21E56A80D00923278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		833697C31E56A80D00923278 /* Build configuration list for PBXNativeTarget "YQBSoftLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				833697C41E56A80D00923278 /* Debug */,
+				833697C51E56A80D00923278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 833697B21E56A80D00923278 /* Project object */;
+}
